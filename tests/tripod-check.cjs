@@ -1,0 +1,4 @@
+const assert=require('node:assert/strict'),T=require('../logic/tripod-core.cjs');
+assert.equal(T.deltaH(359,1),2);assert.equal(T.deltaH(1,359),-2);assert.equal(T.deltaH(0,180),-180);assert.equal(T.deltaH(null,1),null);
+const A={session:1,sensorMode:'relative',source:'relative',rawHeading:359,verticalAngle:12},B={...A,rawHeading:1,verticalAngle:7};assert.equal(T.differences(A,B).horizontal,2);assert.equal(T.differences(A,B).vertical,-5);for(const b of [{...B,session:2},{...B,sensorMode:'magnetic'},{...B,source:'magnetic'}])assert.equal(T.differences(A,b),null);
+const samples=Array.from({length:15},(_,i)=>({time:10000+i*100,h:i%2?359.95:.05,v:10,r:.2}));assert(T.stability(samples,11400).stable);assert(!T.stability(samples,13000).stable);assert(!T.stability(samples.slice(0,5),10400).stable);assert(!T.stability(samples.map((s,i)=>({...s,v:i})),11400).stable);console.log('PASS: tripod math, wrap, session isolation, stability and stale samples');

@@ -1,0 +1,17 @@
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*password*
+.env
+.env.*
+local.properties
+out/
+test-out/
+node_modules/
+.DS_Store
+*.log
+*.apk
+!downloads/ITA_MANA_0_7_1.apk

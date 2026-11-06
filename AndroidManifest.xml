@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="br.org.itaarandu.itamana" android:versionCode="16" android:versionName="0.7.1">
+<uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35"/>
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+<uses-feature android:name="android.hardware.camera" android:required="false"/>
+<uses-feature android:name="android.hardware.sensor.compass" android:required="false"/>
+<application android:label="ITA MAÑA" android:icon="@drawable/icon" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules" android:debuggable="false" android:enableOnBackInvokedCallback="false" android:usesCleartextTraffic="false">
+<activity android:name=".MainActivity" android:exported="true" android:screenOrientation="user" android:configChanges="orientation|screenSize|keyboardHidden|screenLayout|smallestScreenSize"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+</application></manifest>
