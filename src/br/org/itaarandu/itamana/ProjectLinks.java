@@ -8,6 +8,7 @@ public final class ProjectLinks {
         if("ita".equals(key))return "https://cbuson.github.io/atlas-geocientifico-ms/";
         if("pag".equals(key))return "https://cbuson.github.io/pag-etr-ms/";
         if("pih".equals(key))return "https://cbuson.github.io/pih-ms/";
+        if("doi".equals(key))return "https://doi.org/10.5281/zenodo.24012745";
         return null;
     }
 }

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the archived ITA MAÑA 0.7.1 release using this DOI."
+type: software
+title: "ITA MAÑA"
+version: "0.7.1"
+authors:
+  - family-names: "Busón Buesa"
+    given-names: "Carlos"
+doi: "10.5281/zenodo.24012745"
+url: "https://doi.org/10.5281/zenodo.24012745"
+repository-code: "https://github.com/cbuson/ita-mana"
+license: MIT

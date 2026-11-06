@@ -12,6 +12,12 @@ Apoya el desarrollo de competencias técnicas para usar equipamiento de observac
 
 La brújula muestra NM (rojo) y NG estimado (azul), con declinación calculada localmente desde una ubicación reciente. Las cifras de ambas referencias corresponden al azimut del borde superior de pantalla. La lectura central conserva la dirección geológica magnética. Consulta [los cambios y límites](docs/RELEASE_0_7_1.md).
 
+## Citar el software
+
+Busón Buesa, C. (2026). *ITA MAÑA* (Versión 0.7.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.24012745
+
+DOI de la publicación archivada 0.7.1. La compilación Android 17 conserva la versión visible 0.7.1 e incorpora esta referencia en Ayuda, después del archivo de esa publicación. El DOI identifica el archivo de Zenodo, no una nueva publicación de esta compilación.
+
 ## Escribir y grabar notas
 
 Cuaderno → Añadir nota → escribir → Guardar. No requiere estación ni sensores. Audio/vídeo opcionales: grabar, detener, revisar y guardar, hasta 60 s por nota. Permiso de micrófono solo al solicitarlo. [Cambios y límites de la grabación](docs/RELEASE_0_7_1.md).
